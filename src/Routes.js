@@ -18,7 +18,7 @@ function Routes() {
     // </Switch>
 
     <Switch>
-      <Redirect exact from='/final-project-erasmus' to='/' />
+      <Redirect exact from='/erasmus-final-project' to='/' />
       <Route exact path='/'>
         <Home />
       </Route>
