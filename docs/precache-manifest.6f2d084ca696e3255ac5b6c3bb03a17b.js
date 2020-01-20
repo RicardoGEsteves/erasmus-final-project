@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43cccc8d6be1a75a9447de05ade93b06",
+    "revision": "d5207957852f9d184836ffff3b607b24",
     "url": "/erasmus-final-project/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/erasmus-final-project/static/css/2.5129af46.chunk.css"
   },
   {
-    "revision": "9c9080f892878695ca31",
+    "revision": "bd238dd13033dbb96a74",
     "url": "/erasmus-final-project/static/css/main.cf82c67d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/erasmus-final-project/static/js/2.6b0cc644.chunk.js.LICENSE"
   },
   {
-    "revision": "9c9080f892878695ca31",
-    "url": "/erasmus-final-project/static/js/main.a442120a.chunk.js"
+    "revision": "bd238dd13033dbb96a74",
+    "url": "/erasmus-final-project/static/js/main.4c2d9acf.chunk.js"
   },
   {
     "revision": "147581de6dd3f1566b69",
