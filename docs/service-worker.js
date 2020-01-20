@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/erasmus-final-project/precache-manifest.6f2d084ca696e3255ac5b6c3bb03a17b.js"
+  "/erasmus-final-project/precache-manifest.86a99093ba95d7f9ab5e8b0dcae99fd4.js"
 );
 
 self.addEventListener('message', (event) => {
