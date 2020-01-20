@@ -1,0 +1,27 @@
+@import './_app';
+@import './_header';
+@import './_hamburger';
+@import './_home';
+@import './_about';
+@import './_experience';
+@import './_work';
+@import './_contacts';
+@import './_footer';
+
+// Variables
+$cadet-blue: #58a4b0;
+$eerie-black: #0e1428;
+$platinum: #e8e9eb;
+$tea-green: #c4f1be;
+$gunmetal: #272838;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

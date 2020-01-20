@@ -1,0 +1,48 @@
+header {
+  height: 100%;
+  background-color: #c4f1be;
+
+  .inner-header {
+    position: relative;
+    z-index: 10;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      a {
+        display: inline-block;
+        padding-left: 30px;
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #0e1428;
+        transition: transform 250ms;
+
+        &:hover {
+          transform: translateY(-2px);
+        }
+      }
+    }
+
+    .menu {
+      button {
+        display: inline-block;
+        padding-right: 30px;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 0.8rem;
+        mix-blend-mode: difference;
+        transition: transform 250ms;
+        color: #0e1428;
+
+        &:hover {
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+}

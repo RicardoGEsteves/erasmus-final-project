@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  .copyright {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    background-color: #0e1428;
+    p {
+      margin: 30px;
+      text-align: center;
+      font-size: 0.75rem;
+      letter-spacing: 0.3rem;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: #e8e9eb;
+    }
+  }
+  .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    background-color: #e8e9eb;
+    .link {
+      display: inline-block;
+      margin: 0 1rem;
+      transition: transform 250ms;
+      color: #0e1428;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .hover {
+    display: flex;
+    position: relative;
+    height: inherit;
+
+    canvas {
+      position: absolute;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .links {
+      // position: absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      // top: 60%;
+      // left: 38%;
+      z-index: 1;
+      width: 100%;
+
+      .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border: 2px solid #58a4b0;
+        margin: 170px 30px 0 30px;
+        border-radius: 26px;
+        & a {
+          font-size: 1.4rem;
+          letter-spacing: 0.3rem;
+          text-transform: uppercase;
+          font-weight: 800;
+          text-decoration: none;
+          color: #58a4b0;
+        }
+
+        &:hover {
+          border: 2px solid #0e1428;
+          & a {
+            color: #0e1428;
+          }
+        }
+      }
+    }
+  }
+}

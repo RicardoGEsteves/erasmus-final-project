@@ -1,0 +1,48 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  .intro {
+    flex: 1;
+    padding: 0 30px;
+    background-color: #e8e9eb;
+    h1 {
+      color: #0e1428;
+      text-align: start;
+      margin: 100px 0 60px;
+      text-transform: uppercase;
+    }
+    p {
+      color: #0e1428;
+      margin-bottom: 20px;
+      font-size: 0.75rem;
+      letter-spacing: 0.3rem;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+    & p:nth-child(2) {
+      font-size: 1.3rem;
+    }
+  }
+  .distortion {
+    display: flex;
+    position: relative;
+    flex: 2;
+
+    canvas {
+      position: absolute;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .overlay {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.2);
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+  }
+}
