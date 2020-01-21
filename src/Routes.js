@@ -22,6 +22,11 @@ function Routes() {
       <Route exact path='/'>
         <Home />
       </Route>
+      {/* <Route
+        exact
+        path={`/`}
+        render={routerProps => <Home routerProps={routerProps} />}
+      /> */}
       <Route path='/about'>
         <About />
       </Route>
