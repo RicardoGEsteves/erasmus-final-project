@@ -9,7 +9,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
+    "@testing-library/user-event": "^14.0.0",
     "gsap": "^3.6.0",
     "hover-effect": "^1.2.1",
     "node-sass": "^7.0.3",
