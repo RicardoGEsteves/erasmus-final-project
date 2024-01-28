@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://ricardogesteves.github.io/erasmus-final-project",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.26",
-    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/fontawesome-svg-core": "^6.0.0",
+    "@fortawesome/free-brands-svg-icons": "^6.0.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
